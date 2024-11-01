@@ -1,0 +1,364 @@
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#contact_slider {
+	position: relative;
+}
+#form_contact_inner {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #e54040;
+	background-color: #fff;
+	position: fixed;
+	 -webkit-transition: all .5s ease-in-out;        
+    -moz-transition: all .5s ease-in-out;        
+     -o-transition: all .5s ease-in-out;        
+     transition: all .5s ease-in-out;
+}
+#form_contact_image {
+	overflow: hidden;
+	text-align: left;
+}
+#form_contact_inner img.outer {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#form_contact_inner iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+.forented_form_outer {
+/*padding:0 10px;*/
+}
+.forented_form_outer form {
+	padding: 0 10px;
+}
+.banner-section {
+	background: #005b7f;
+	height: 60px;
+	text-align: center;
+}
+.banner-section img {
+	margin: 12px 0;
+}
+.forented_form_outer input[type="text"] {
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	border: 2px solid #005b7f;
+	border-radius: 0;
+	background-color: transparent;
+}
+.forented_form_outer textarea {
+	height: 97px;
+	font-size: 14px;
+	border: 2px solid #005b7f;
+	background-color: transparent;
+}
+.cfw-submit {
+	text-align: center;
+	margin-top: 20px;
+}
+.cfw-submit input[type="submit"] {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 2px solid #005b7f;
+	border-radius: 0;
+	color: #005b7f;
+	font-size: 14px;
+	font-weight: normal;
+	height: 35px;
+	margin: 0;
+	padding: 10px 35px;
+	line-height: 10px;
+}
+.cfw-submit input[type="submit"]:hover {
+	background: #005b7f none repeat scroll 0 0;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+.cfw-submit input[type="submit"]:active {
+	position: relative;
+	top: 1px;
+}
+.forented_form_outer h2 {
+	color: #005b7f;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.forented_form_outer input, textarea {
+	margin-bottom: 20px;
+}
+.banner-section {
+	background: #005b7f;
+}
+.corner-arrow img.left {
+	left: 0;
+	position: absolute;
+	top: 47px;
+}
+.corner-arrow img.right {
+	right: 0;
+	position: absolute;
+	top: 47px;
+}
+*::-moz-placeholder {
+font-size:14px;
+color:#005b7f;
+opacity:0.6;
+font-family:SourceSansPro-Light !important;
+}
+a:hover {
+	color: #005b7f;
+	position: relative;
+}
+a[title]:hover:after {
+	content: attr(title);
+	color: #005b7f;
+	padding: 5px;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	white-space: nowrap;
+	z-index: 20;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #005b7f;
+	background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eeeeee));
+	background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+}
+.artboard > h2.top-style {
+	background: #0998d7 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    font-size: 28px !important;
+    font-weight: normal;
+    padding: 15px 18px !important;
+    text-align: left;
+}
+.artboard .submit {
+	text-align:left;
+	width: 520px;
+}
+.artboard .submit .button-default {
+	background: #0998d7 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.artboard th {
+	color: #0998d7;
+	font-size: 16px;
+}
+.artboard h2 {
+	color: #0998d7;
+	font-size: 26px;
+}
+.artboard .form-table input {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #0998d7;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.artboard select {
+	border: 1px solid #0998d7;
+	border-radius: 3px;
+}
+.left_section div#form_contact_inner .outer {
+    right: -45px !important;
+}
+#form_contact_inner .open{display:block; visibility:visible; border: none; outline:0;}
+div#form_contact_detail {
+    padding:14px 20px;
+    text-align: left;
+    width: 350px;
+}
+
+div#form_contact_inner {
+	border-radius:5px;
+}
+#wecf_main_form_outer input[type="text"],#wecf_main_form_outer textarea,
+#wecf_main_form_outer_short input[type="text"],#wecf_main_form_outer_short textarea{
+	font-size:14px !important;
+	font-weight:normal;
+	color:#000 !important;
+	font-family: SourceSansPro-Light;
+	}
+#wecf_main_form_outer input[type="text"],#wecf_main_form_outer textarea,#wecf_main_form_outer input[type="submit"], #wecf_main_form_outer input[type="email"],#wecf_main_form_outer input,
+#wecf_main_form_outer_short input[type="text"],#wecf_main_form_outer_short textarea,#wecf_main_form_outer_short input[type="submit"], #wecf_main_form_outer_short input[type="email"],#wecf_main_form_outer_short input
+{
+	margin:5px 0;border-radius:0;
+	border:1px solid #00BCD4 !important;
+	background:#fff;
+	color:#000000;
+	font-family: SourceSansPro-Light;
+	}
+#wecf_main_form_outer input[type="submit"] , #wecf_main_form_outer_short input[type="submit"] {
+    background: #03A9F4;
+	color:#FFF;
+}
+	button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus	{
+	background:#000 !important;
+	color:#fff !important;
+	outline:none !important;
+	-webkit-transition: all 1s ease;/* Safari 3.2+, Chrome */
+	-moz-transition: all 1s ease;/* Firefox 4-15 */
+	-o-transition: all 1s ease;/* Opera 10.5-12.00 */
+	transition: all 1s ease;/* Firefox 16+, Opera 12.50+ */
+		}
+		
+	.right_section .outer{
+		right: -40px !important;
+		 left: -42px !important;	
+		}	
+		
+		.general_setting > a , .editfield_setting a{
+    background: #0998d7 none repeat scroll 0 0;
+    color: #ffffff;
+    float:left;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+.general_setting > a.activebtn , .editfield_setting a.activebtn{
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+}
+
+fieldset {
+    cursor: move;
+}
+ .fieldset_outer.custom_outer{display:none}
+ 
+ .wecf_field_label_mid {
+    width: 500px;
+}
+.wecf_field_label_mid > input {
+    width: 50px !important;
+}
+.wecf_field_label_left_outer {
+    float: left;
+    width: 65%;
+}
+.wecf_field_label_right {
+    float: left;
+    padding-top: 25px;
+    width: 22%;
+}
+.form-field.custom_field_type.think_remove_add_more {
+    float: right;
+    width: 10%;
+	padding-top:22px;
+}
+#sortable.ui-sortable {
+    width: 780px;
+}
+#sortable fieldset {
+     border-bottom: medium dotted;
+     margin-bottom: 25px;
+     overflow: hidden;
+     width: 100%;
+	 padding-bottom: 5px;
+}
+#general_outer tr:first-child {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 2px solid #cccccc;
+    padding: 20px;
+}
+#general_outer tr:first-child th {
+    display: block;
+    padding-left: 20px;
+}
+.form-field.custom_field_type.shape a {
+    background: #0998d7 none repeat scroll 0 0;
+    color: #ffffff;
+    float: right;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 66px;
+}
+.form-field.custom_field_type.shape{
+	width:780px;
+}
+.ui-sortable input[type=checkbox] {
+    height: 18px;
+    width: 18px !important;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+p.form-field.custom_field_type.think_remove_add_more a {
+    float: right;
+}
+table.form-table tbody tr td textarea {
+    width: 300px;
+    border-radius: 3px;
+    border-color: #0998d7;
+}
+#wpfooter {
+    position:relative;
+}
+
+/*-------------Media Query------------------*/
+@media screen and (max-width: 820px) {
+#wecf_cnt_form_plugin_outer {
+    margin: auto;
+    max-width: 680px;
+    width: 100%;
+}
+}
+@media screen and (max-width: 660px) {
+#wecf_cnt_form_plugin_outer {
+    max-width: 600px;
+}
+}
+@media screen and (max-width: 500px) {
+#wecf_cnt_form_plugin_outer {
+    max-width: 450px;
+}
+}
+@media screen and (max-width: 414px) {
+	#wecf_cnt_form_plugin_outer {
+    max-width: 340px;
+}
+div#form_contact_inner.showdiv {
+    left: 0;
+    max-width: 350px;
+    width: 100%;
+}	
+
+}
+@media screen and (max-width: 320px) {
+		#wecf_cnt_form_plugin_outer {
+    max-width: 280px;
+}
+div#form_contact_inner.showdiv {
+    max-width: 310px;
+}	
+div#form_contact_detail {
+    width: auto;
+}
+}
